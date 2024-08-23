@@ -1,6 +1,5 @@
 {
-  "Custom": {},
-  "palette/Dark": {
+  "palette/dark": {
     "_components": {
       "link": {
         "color": {
@@ -1489,7 +1488,7 @@
       }
     }
   },
-  "palette/Light": {
+  "palette/light": {
     "_components": {
       "link": {
         "color": {
@@ -2479,16 +2478,6 @@
           "value": "#2879af80",
           "type": "color"
         }
-      }
-    },
-    "spacing": {
-      "half": {
-        "value": "0.25rem",
-        "type": "dimension"
-      },
-      "quarter": {
-        "value": "0.125rem",
-        "type": "dimension"
       }
     },
     "text": {
@@ -4791,9 +4780,8 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Custom",
-      "palette/Dark",
-      "palette/Light",
+      "palette/dark",
+      "palette/light",
       "breakpoints",
       "material/colors",
       "materialpattern/colors",
