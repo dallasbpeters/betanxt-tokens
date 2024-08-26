@@ -1,5 +1,5 @@
 {
-  "spacing/desktop": {
+  "spacing": {
     "1": {
       "value": "8",
       "type": "number"
@@ -4603,7 +4603,7 @@
       }
     }
   },
-  "material/color": {
+  "material": {
     "grey": {
       "50": {
         "value": "#fafafa",
@@ -5649,7 +5649,7 @@
       }
     }
   },
-  "materialpattern/color": {
+  "materialpattern": {
     "gold": {
       "50": {
         "value": "#fdf8f2",
@@ -6164,7 +6164,7 @@
       }
     }
   },
-  "typography/desktop": {
+  "typography": {
     "fontFamily": {
       "regular": {
         "value": "Roboto",
@@ -7311,7 +7311,7 @@
       }
     }
   },
-  "shape/dimension": {
+  "shape": {
     "borderRadius": {
       "value": "4",
       "type": "number"
@@ -7321,7 +7321,7 @@
       "type": "number"
     }
   },
-  "breakpoints/dimension": {
+  "breakpoints": {
     "xl": {
       "value": "1536",
       "type": "number"
@@ -8057,14 +8057,14 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "spacing/desktop",
+      "spacing",
       "palette/light",
       "palette/dark",
-      "material/color",
-      "materialpattern/color",
-      "typography/desktop",
-      "shape/dimension",
-      "breakpoints/dimension",
+      "material",
+      "materialpattern",
+      "typography",
+      "shape",
+      "breakpoints",
       "shadows"
     ]
   }
