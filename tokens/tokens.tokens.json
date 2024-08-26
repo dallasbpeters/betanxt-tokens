@@ -59,6 +59,1485 @@
       }
     }
   },
+  "palette/light": {
+    "_components": {
+      "link": {
+        "color": {
+          "value": "#2879af",
+          "type": "color"
+        }
+      },
+      "chip": {
+        "pulling": {
+          "main": {
+            "value": "{gold.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{gold.600}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{gold.400}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#000000de",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#ebb3220a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#ebb32214",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#ebb3224d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#ebb32280",
+              "type": "color",
+              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+            }
+          }
+        },
+        "production": {
+          "main": {
+            "value": "{celery.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{celery.900}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{celery.400}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#000000de",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#b4b66d0a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#b4b66d14",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#b4b66d4d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#b4b66d80",
+              "type": "color",
+              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+            }
+          }
+        },
+        "proofing": {
+          "main": {
+            "value": "{bnblue.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{bnblue.700}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{bnblue.400}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#ffffffde",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#0288d10a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#0288d114",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#0288d14d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#0288d180",
+              "type": "color",
+              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+            }
+          }
+        },
+        "status": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "unapproved": {
+          "main": {
+            "value": "{bnteal.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{bnteal.700}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{bnteal.300}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#95bdc30a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#95bdc314",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#95bdc34d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#95bdc3e6",
+              "type": "color"
+            }
+          }
+        },
+        "approved": {
+          "main": {
+            "value": "{seagrass.800}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{seagrass.900}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{seagrass.700}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#6680660a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#66806614",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#6680664d",
+              "type": "color"
+            },
+            "outlinedborder": {
+              "value": "#668066e6",
+              "type": "color"
+            }
+          }
+        },
+        "pending": {
+          "main": {
+            "value": "{gold.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{gold.600}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{gold.400}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#000000de",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#ebb3220a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#ebb32214",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#ebb3224d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#ebb322e6",
+              "type": "color"
+            }
+          }
+        },
+        "flagged": {
+          "main": {
+            "value": "{orangered.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{orangered.700}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{orangered.400}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#e73d000a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#e73d0014",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#e73d004d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#e73d00e6",
+              "type": "color"
+            }
+          }
+        },
+        "donotdistribute": {
+          "main": {
+            "value": "{persimmon.800}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{persimmon.900}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{persimmon.500}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#ff74000a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#ff740014",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#ff74004d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#ff7400e6",
+              "type": "color"
+            }
+          }
+        },
+        "defaultCloseFill": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "defaultHoverFill": {
+          "value": "#0000001f",
+          "type": "color"
+        },
+        "defaultEnabledBorder": {
+          "value": "{grey.400}",
+          "type": "color"
+        },
+        "defaultFocusFill": {
+          "value": "#00000033",
+          "type": "color"
+        }
+      },
+      "table": {
+        "cell-row": {
+          "zebraFill": {
+            "value": "{neutral.200}",
+            "type": "color"
+          },
+          "fill": {
+            "value": "{common.white_states.main}",
+            "type": "color"
+          }
+        },
+        "header-row": {
+          "restingFill": {
+            "value": "{neutral.400}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{neutral.500}",
+            "type": "color"
+          }
+        }
+      },
+      "data-grid": {
+        "header-row": {
+          "restingFill": {
+            "value": "{neutral.400}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{neutral.500}",
+            "type": "color"
+          }
+        },
+        "sub-header": {
+          "value": "{grey.100}",
+          "type": "color"
+        },
+        "cell-row": {
+          "border": {
+            "value": "{neutral.400}",
+            "type": "color"
+          }
+        },
+        "pagination": {
+          "backgroundFill": {
+            "value": "{neutral.200}",
+            "type": "color"
+          }
+        }
+      },
+      "chart": {
+        "series1": {
+          "main": {
+            "value": "{darkslategray.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{darkslategray.700}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{darkslategray.400}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#ffffffde",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#0123330f",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#0123331a",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#0123334d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#01233380",
+              "type": "color",
+              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+            }
+          }
+        },
+        "series3": {
+          "main": {
+            "value": "{turquoise.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{turquoise.800}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{turquoise.200}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#000000de",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#51c8ec14",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#51c8ec1a",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#51c8ec4d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#51c8ec80",
+              "type": "color",
+              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+            }
+          }
+        },
+        "series4": {
+          "main": {
+            "value": "{aqua.200}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{aqua.400}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{aqua.50}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#000000de",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#95bdc31a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#95bdc31f",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#95bdc34d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#95bdc380",
+              "type": "color",
+              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+            }
+          }
+        },
+        "series6": {
+          "main": {
+            "value": "{persimmon.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{persimmon.700}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{persimmon.300}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#ff740014",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#ff74001a",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#ff74004d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#ff7400e6",
+              "type": "color"
+            }
+          }
+        },
+        "series7": {
+          "main": {
+            "value": "{celery.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{celery.800}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{celery.400}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#000000de",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#c9cc7a26",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#c9cc7a2e",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#c9cc7a4d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#c9cc7ae6",
+              "type": "color"
+            }
+          }
+        },
+        "series8": {
+          "main": {
+            "value": "{gold.800}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{gold.900}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{gold.700}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#69500f0f",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#69500f1a",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#69500f4d",
+              "type": "color"
+            },
+            "outlinedborder": {
+              "value": "#69500fe6",
+              "type": "color"
+            }
+          }
+        },
+        "series2": {
+          "main": {
+            "value": "{bnteal.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{bnteal.800}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{bnteal.400}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "{info.contrast}",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#3d83990f",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#3d83991a",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#3d83994d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#3d8399e6",
+              "type": "color"
+            }
+          }
+        },
+        "series5": {
+          "main": {
+            "value": "{gold.500}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{gold.700}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{gold.400}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#000000de",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#ebb3221a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#ebb32224",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#ebb3224d",
+              "type": "color"
+            },
+            "outlinedBorder": {
+              "value": "#ebb32280",
+              "type": "color",
+              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+            }
+          }
+        },
+        "series9": {
+          "main": {
+            "value": "{seagrass.700}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{seagrass.800}",
+            "type": "color"
+          },
+          "light": {
+            "value": "{seagrass.600}",
+            "type": "color"
+          },
+          "contrast": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "_states": {
+            "hover": {
+              "value": "#77cc990a",
+              "type": "color",
+              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+            },
+            "selected": {
+              "value": "#77cc9914",
+              "type": "color",
+              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+            },
+            "focusVisible": {
+              "value": "#77cc994d",
+              "type": "color"
+            },
+            "outlinedborder": {
+              "value": "#77cc99e6",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "rating": {
+        "enabledBorder": {
+          "value": "#0000003b",
+          "type": "color"
+        },
+        "activeFill": {
+          "value": "#ffb400",
+          "type": "color"
+        }
+      },
+      "avatar": {
+        "fill": {
+          "value": "{micgrey.400}",
+          "type": "color"
+        }
+      },
+      "input": {
+        "standard": {
+          "enabledBorder": {
+            "value": "#0000006b",
+            "type": "color"
+          },
+          "hoverBorder": {
+            "value": "#000000",
+            "type": "color"
+          }
+        },
+        "filled": {
+          "enabledFill": {
+            "value": "#0000000f",
+            "type": "color"
+          },
+          "hoverFill": {
+            "value": "#00000017",
+            "type": "color"
+          }
+        },
+        "outlined": {
+          "enabledBorder": {
+            "value": "#0000003b",
+            "type": "color"
+          },
+          "hoverBorder": {
+            "value": "#000000",
+            "type": "color"
+          }
+        }
+      },
+      "switch": {
+        "knobFillEnabled": {
+          "value": "{grey.50}",
+          "type": "color"
+        },
+        "slideFill": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "knowFillDisabled": {
+          "value": "{grey.100}",
+          "type": "color"
+        }
+      },
+      "tooltip": {
+        "fill": {
+          "value": "#616161e6",
+          "type": "color"
+        }
+      },
+      "backdrop": {
+        "fill": {
+          "value": "#00000080",
+          "type": "color"
+        }
+      },
+      "appBar": {
+        "defaultFill": {
+          "value": "{grey.100}",
+          "type": "color"
+        }
+      },
+      "breadcrumbs": {
+        "collapseFill": {
+          "value": "{grey.100}",
+          "type": "color"
+        }
+      },
+      "alert": {
+        "error": {
+          "color": {
+            "value": "#5f2120",
+            "type": "color"
+          },
+          "background": {
+            "value": "#fdeded",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "color": {
+            "value": "#663c00",
+            "type": "color"
+          },
+          "background": {
+            "value": "#fff4e5",
+            "type": "color"
+          }
+        },
+        "info": {
+          "color": {
+            "value": "#014361",
+            "type": "color"
+          },
+          "background": {
+            "value": "#e5f6fd",
+            "type": "color"
+          }
+        },
+        "success": {
+          "color": {
+            "value": "#1e4620",
+            "type": "color"
+          },
+          "background": {
+            "value": "#edf7ed",
+            "type": "color"
+          }
+        }
+      },
+      "stepper": {
+        "connector": {
+          "value": "{grey.400}",
+          "type": "color"
+        }
+      },
+      "snackbar": {
+        "fill": {
+          "value": "#323232",
+          "type": "color"
+        }
+      }
+    },
+    "logos": {
+      "betanxt": {
+        "fill": {
+          "value": "#0d6580",
+          "type": "color"
+        }
+      },
+      "mediant": {
+        "black": {
+          "value": "#303c41",
+          "type": "color"
+        },
+        "grey": {
+          "value": "#868c8d",
+          "type": "color"
+        },
+        "green": {
+          "value": "#55c21f",
+          "type": "color"
+        },
+        "blue": {
+          "value": "#009ab5",
+          "type": "color"
+        }
+      },
+      "poweredby": {
+        "color": {
+          "value": "{turquoise.500}",
+          "type": "color"
+        }
+      }
+    },
+    "secondary": {
+      "contrast": {
+        "on-light": {
+          "value": "#053f5a",
+          "type": "color"
+        },
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "main": {
+        "value": "#307987",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#235862",
+        "type": "color"
+      },
+      "light": {
+        "value": "#95bdc3",
+        "type": "color"
+      },
+      "_states": {
+        "hover": {
+          "value": "#3079870a",
+          "type": "color",
+          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+        },
+        "selected": {
+          "value": "#30798714",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "focus": {
+          "value": "#3079871f",
+          "type": "color",
+          "description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token."
+        },
+        "focusVisible": {
+          "value": "#3079874d",
+          "type": "color"
+        },
+        "outlinedBorder": {
+          "value": "#30798780",
+          "type": "color",
+          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+        }
+      }
+    },
+    "tertiary": {
+      "main": {
+        "value": "{_components.link.color}",
+        "type": "color"
+      },
+      "light": {
+        "value": "#6eb1de",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#1e5d87",
+        "type": "color"
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "_states": {
+        "hover": {
+          "value": "#2879af0a",
+          "type": "color"
+        },
+        "selected": {
+          "value": "#2879af14",
+          "type": "color"
+        },
+        "focusVisible": {
+          "value": "#2879af4d",
+          "type": "color"
+        },
+        "outlinedborder": {
+          "value": "#2879af80",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "#1f1e1c",
+        "type": "color",
+        "description": "Reflects the text.primary variable from the theme object"
+      },
+      "secondary": {
+        "value": "#1f1e1cb3",
+        "type": "color",
+        "description": "Reflects the text.secondary variable from the theme object"
+      },
+      "disabled": {
+        "value": "#1f1e1c61",
+        "type": "color",
+        "description": "Reflects the text.disabled variable from the theme object"
+      },
+      "_states": {
+        "hover": {
+          "value": "#1f1e1c0a",
+          "type": "color",
+          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+        },
+        "selected": {
+          "value": "#1f1e1c14",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "focus": {
+          "value": "#1f1e1c1f",
+          "type": "color",
+          "description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token."
+        },
+        "focusVisible": {
+          "value": "#1f1e1c4d",
+          "type": "color",
+          "description": "Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token."
+        }
+      }
+    },
+    "primary": {
+      "main": {
+        "value": "#053f5a",
+        "type": "color",
+        "description": "Reflects the primary.main variable from the theme object"
+      },
+      "dark": {
+        "value": "#012333",
+        "type": "color",
+        "description": "Used for hover states. Reflects the primary.dark variable from the theme object"
+      },
+      "light": {
+        "value": "#37657b",
+        "type": "color",
+        "description": "Reflects the primary.light variable from the theme object"
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color"
+      },
+      "_states": {
+        "hover": {
+          "value": "#053f5a0a",
+          "type": "color",
+          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+        },
+        "selected": {
+          "value": "#053f5a14",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "focus": {
+          "value": "#053f5a1f",
+          "type": "color",
+          "description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token."
+        },
+        "focusVisible": {
+          "value": "#053f5a4d",
+          "type": "color"
+        },
+        "outlinedBorder": {
+          "value": "#053f5a80",
+          "type": "color",
+          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+        }
+      }
+    },
+    "action": {
+      "active": {
+        "value": "#0000008f",
+        "type": "color"
+      },
+      "hover": {
+        "value": "#0000000a",
+        "type": "color",
+        "description": "Reflects the action.hover variable from the theme object"
+      },
+      "selected": {
+        "value": "#00000014",
+        "type": "color",
+        "description": "Reflects the action.selected variable from the theme object"
+      },
+      "disabledBackground": {
+        "value": "#0000001f",
+        "type": "color",
+        "description": "Reflects the action.disabledBackground variable from the theme object"
+      },
+      "focus": {
+        "value": "#0000001f",
+        "type": "color",
+        "description": "Reflects the action.focus variable from the theme object"
+      },
+      "disabled": {
+        "value": "#00000061",
+        "type": "color",
+        "description": "Reflects the action.disabled variable from the theme object"
+      }
+    },
+    "error": {
+      "main": {
+        "value": "#d63900",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#a12a00",
+        "type": "color"
+      },
+      "light": {
+        "value": "#eb6333",
+        "type": "color"
+      },
+      "_states": {
+        "hover": {
+          "value": "#d639000a",
+          "type": "color",
+          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+        },
+        "selected": {
+          "value": "#d6390014",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "focusVisible": {
+          "value": "#d639004d",
+          "type": "color"
+        },
+        "outlinedBorder": {
+          "value": "#d6390080",
+          "type": "color",
+          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+        }
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "warning": {
+      "main": {
+        "value": "#ff7400",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#d15e00",
+        "type": "color"
+      },
+      "light": {
+        "value": "#ff8f33",
+        "type": "color"
+      },
+      "_states": {
+        "hover": {
+          "value": "#ff74000a",
+          "type": "color",
+          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+        },
+        "selected": {
+          "value": "#ff740014",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "focusVisible": {
+          "value": "#ff74004d",
+          "type": "color"
+        },
+        "outlinedBorder": {
+          "value": "#ff740080",
+          "type": "color",
+          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+        }
+      },
+      "contrast": {
+        "value": "#000000",
+        "type": "color"
+      }
+    },
+    "info": {
+      "main": {
+        "value": "#0d6580",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#0a5066",
+        "type": "color"
+      },
+      "light": {
+        "value": "#3d8399",
+        "type": "color"
+      },
+      "_states": {
+        "hover": {
+          "value": "#0d65800a",
+          "type": "color",
+          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+        },
+        "selected": {
+          "value": "#0d658014",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "focusVisible": {
+          "value": "#0d65804d",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "outlinedBorder": {
+          "value": "#0d658080",
+          "type": "color",
+          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+        }
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    },
+    "success": {
+      "main": {
+        "value": "#668066",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#516651",
+        "type": "color"
+      },
+      "light": {
+        "value": "#849984",
+        "type": "color"
+      },
+      "contrast": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "_states": {
+        "hover": {
+          "value": "#6680660a",
+          "type": "color",
+          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+        },
+        "selected": {
+          "value": "#66806614",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "focusVisible": {
+          "value": "#6680664d",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "outlinedBorder": {
+          "value": "#66806680",
+          "type": "color",
+          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+        }
+      }
+    },
+    "common": {
+      "white_states": {
+        "main": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#ffffff0a",
+          "type": "color",
+          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+        },
+        "selected": {
+          "value": "#ffffff14",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "focus": {
+          "value": "#ffffff1f",
+          "type": "color"
+        },
+        "focusVisible": {
+          "value": "#ffffff4d",
+          "type": "color"
+        },
+        "outlinedBorder": {
+          "value": "#ffffff80",
+          "type": "color",
+          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+        }
+      },
+      "black_states": {
+        "main": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#0000000a",
+          "type": "color",
+          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
+        },
+        "selected": {
+          "value": "#00000014",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "focus": {
+          "value": "#0000001f",
+          "type": "color"
+        },
+        "focusVisible": {
+          "value": "#0000004d",
+          "type": "color",
+          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
+        },
+        "outlinedBorder": {
+          "value": "#00000080",
+          "type": "color",
+          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
+        }
+      }
+    },
+    "background": {
+      "default": {
+        "value": "{neutral.100}",
+        "type": "color",
+        "description": "Reflects the background.default variable from the theme object"
+      },
+      "paper-elevation-0": {
+        "value": "{neutral.200}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-1": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-2": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-3": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-4": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-5": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-6": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-7": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-8": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-9": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-10": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-11": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-12": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-13": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-14": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-15": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-16": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-17": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-18": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-19": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-20": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-21": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-22": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-23": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      },
+      "paper-elevation-24": {
+        "value": "{background.paper-elevation-0}",
+        "type": "color",
+        "description": "Reflects the background.paper variable from the theme object"
+      }
+    },
+    "divider": {
+      "value": "#1f1e1c1f",
+      "type": "color",
+      "description": "Reflects the divider variable from the theme object"
+    },
+    "elevation": {
+      "outlined": {
+        "value": "#e0e0e0",
+        "type": "color"
+      }
+    },
+    "_native": {
+      "scrollbar-bg": {
+        "value": "{grey.200}",
+        "type": "color"
+      }
+    }
+  },
   "palette/dark": {
     "_components": {
       "link": {
@@ -3121,1485 +4600,6 @@
       "0": {
         "value": "0px",
         "type": "dimension"
-      }
-    }
-  },
-  "palette/light": {
-    "_components": {
-      "link": {
-        "color": {
-          "value": "#2879af",
-          "type": "color"
-        }
-      },
-      "chip": {
-        "pulling": {
-          "main": {
-            "value": "{gold.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{gold.600}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{gold.400}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#000000de",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#ebb3220a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#ebb32214",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#ebb3224d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#ebb32280",
-              "type": "color",
-              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-            }
-          }
-        },
-        "production": {
-          "main": {
-            "value": "{celery.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{celery.900}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{celery.400}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#000000de",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#b4b66d0a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#b4b66d14",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#b4b66d4d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#b4b66d80",
-              "type": "color",
-              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-            }
-          }
-        },
-        "proofing": {
-          "main": {
-            "value": "{bnblue.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{bnblue.700}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{bnblue.400}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#ffffffde",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#0288d10a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#0288d114",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#0288d14d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#0288d180",
-              "type": "color",
-              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-            }
-          }
-        },
-        "status": {
-          "value": "#ffffff",
-          "type": "color"
-        },
-        "unapproved": {
-          "main": {
-            "value": "{bnteal.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{bnteal.700}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{bnteal.300}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#95bdc30a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#95bdc314",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#95bdc34d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#95bdc3e6",
-              "type": "color"
-            }
-          }
-        },
-        "approved": {
-          "main": {
-            "value": "{seagrass.800}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{seagrass.900}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{seagrass.700}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#6680660a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#66806614",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#6680664d",
-              "type": "color"
-            },
-            "outlinedborder": {
-              "value": "#668066e6",
-              "type": "color"
-            }
-          }
-        },
-        "pending": {
-          "main": {
-            "value": "{gold.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{gold.600}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{gold.400}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#000000de",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#ebb3220a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#ebb32214",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#ebb3224d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#ebb322e6",
-              "type": "color"
-            }
-          }
-        },
-        "flagged": {
-          "main": {
-            "value": "{orangered.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{orangered.700}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{orangered.400}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#e73d000a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#e73d0014",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#e73d004d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#e73d00e6",
-              "type": "color"
-            }
-          }
-        },
-        "donotdistribute": {
-          "main": {
-            "value": "{persimmon.800}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{persimmon.900}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{persimmon.500}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#ff74000a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#ff740014",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#ff74004d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#ff7400e6",
-              "type": "color"
-            }
-          }
-        },
-        "defaultCloseFill": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "defaultHoverFill": {
-          "value": "#0000001f",
-          "type": "color"
-        },
-        "defaultEnabledBorder": {
-          "value": "{grey.400}",
-          "type": "color"
-        },
-        "defaultFocusFill": {
-          "value": "#00000033",
-          "type": "color"
-        }
-      },
-      "table": {
-        "cell-row": {
-          "zebraFill": {
-            "value": "{neutral.200}",
-            "type": "color"
-          },
-          "fill": {
-            "value": "{common.white_states.main}",
-            "type": "color"
-          }
-        },
-        "header-row": {
-          "restingFill": {
-            "value": "{neutral.400}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{neutral.500}",
-            "type": "color"
-          }
-        }
-      },
-      "data-grid": {
-        "header-row": {
-          "restingFill": {
-            "value": "{neutral.400}",
-            "type": "color"
-          },
-          "border": {
-            "value": "{neutral.500}",
-            "type": "color"
-          }
-        },
-        "sub-header": {
-          "value": "{grey.100}",
-          "type": "color"
-        },
-        "cell-row": {
-          "border": {
-            "value": "{neutral.400}",
-            "type": "color"
-          }
-        },
-        "pagination": {
-          "backgroundFill": {
-            "value": "{neutral.200}",
-            "type": "color"
-          }
-        }
-      },
-      "chart": {
-        "series1": {
-          "main": {
-            "value": "{darkslategray.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{darkslategray.700}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{darkslategray.400}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#ffffffde",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#0123330f",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#0123331a",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#0123334d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#01233380",
-              "type": "color",
-              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-            }
-          }
-        },
-        "series3": {
-          "main": {
-            "value": "{turquoise.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{turquoise.800}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{turquoise.200}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#000000de",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#51c8ec14",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#51c8ec1a",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#51c8ec4d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#51c8ec80",
-              "type": "color",
-              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-            }
-          }
-        },
-        "series4": {
-          "main": {
-            "value": "{aqua.200}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{aqua.400}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{aqua.50}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#000000de",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#95bdc31a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#95bdc31f",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#95bdc34d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#95bdc380",
-              "type": "color",
-              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-            }
-          }
-        },
-        "series6": {
-          "main": {
-            "value": "{persimmon.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{persimmon.700}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{persimmon.300}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#ff740014",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#ff74001a",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#ff74004d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#ff7400e6",
-              "type": "color"
-            }
-          }
-        },
-        "series7": {
-          "main": {
-            "value": "{celery.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{celery.800}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{celery.400}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#000000de",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#c9cc7a26",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#c9cc7a2e",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#c9cc7a4d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#c9cc7ae6",
-              "type": "color"
-            }
-          }
-        },
-        "series8": {
-          "main": {
-            "value": "{gold.800}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{gold.900}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{gold.700}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#69500f0f",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#69500f1a",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#69500f4d",
-              "type": "color"
-            },
-            "outlinedborder": {
-              "value": "#69500fe6",
-              "type": "color"
-            }
-          }
-        },
-        "series2": {
-          "main": {
-            "value": "{bnteal.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{bnteal.800}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{bnteal.400}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "{info.contrast}",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#3d83990f",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#3d83991a",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#3d83994d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#3d8399e6",
-              "type": "color"
-            }
-          }
-        },
-        "series5": {
-          "main": {
-            "value": "{gold.500}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{gold.700}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{gold.400}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#000000de",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#ebb3221a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#ebb32224",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#ebb3224d",
-              "type": "color"
-            },
-            "outlinedBorder": {
-              "value": "#ebb32280",
-              "type": "color",
-              "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-            }
-          }
-        },
-        "series9": {
-          "main": {
-            "value": "{seagrass.700}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{seagrass.800}",
-            "type": "color"
-          },
-          "light": {
-            "value": "{seagrass.600}",
-            "type": "color"
-          },
-          "contrast": {
-            "value": "#ffffff",
-            "type": "color"
-          },
-          "_states": {
-            "hover": {
-              "value": "#77cc990a",
-              "type": "color",
-              "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-            },
-            "selected": {
-              "value": "#77cc9914",
-              "type": "color",
-              "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-            },
-            "focusVisible": {
-              "value": "#77cc994d",
-              "type": "color"
-            },
-            "outlinedborder": {
-              "value": "#77cc99e6",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "rating": {
-        "enabledBorder": {
-          "value": "#0000003b",
-          "type": "color"
-        },
-        "activeFill": {
-          "value": "#ffb400",
-          "type": "color"
-        }
-      },
-      "avatar": {
-        "fill": {
-          "value": "{micgrey.400}",
-          "type": "color"
-        }
-      },
-      "input": {
-        "standard": {
-          "enabledBorder": {
-            "value": "#0000006b",
-            "type": "color"
-          },
-          "hoverBorder": {
-            "value": "#000000",
-            "type": "color"
-          }
-        },
-        "filled": {
-          "enabledFill": {
-            "value": "#0000000f",
-            "type": "color"
-          },
-          "hoverFill": {
-            "value": "#00000017",
-            "type": "color"
-          }
-        },
-        "outlined": {
-          "enabledBorder": {
-            "value": "#0000003b",
-            "type": "color"
-          },
-          "hoverBorder": {
-            "value": "#000000",
-            "type": "color"
-          }
-        }
-      },
-      "switch": {
-        "knobFillEnabled": {
-          "value": "{grey.50}",
-          "type": "color"
-        },
-        "slideFill": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "knowFillDisabled": {
-          "value": "{grey.100}",
-          "type": "color"
-        }
-      },
-      "tooltip": {
-        "fill": {
-          "value": "#616161e6",
-          "type": "color"
-        }
-      },
-      "backdrop": {
-        "fill": {
-          "value": "#00000080",
-          "type": "color"
-        }
-      },
-      "appBar": {
-        "defaultFill": {
-          "value": "{grey.100}",
-          "type": "color"
-        }
-      },
-      "breadcrumbs": {
-        "collapseFill": {
-          "value": "{grey.100}",
-          "type": "color"
-        }
-      },
-      "alert": {
-        "error": {
-          "color": {
-            "value": "#5f2120",
-            "type": "color"
-          },
-          "background": {
-            "value": "#fdeded",
-            "type": "color"
-          }
-        },
-        "warning": {
-          "color": {
-            "value": "#663c00",
-            "type": "color"
-          },
-          "background": {
-            "value": "#fff4e5",
-            "type": "color"
-          }
-        },
-        "info": {
-          "color": {
-            "value": "#014361",
-            "type": "color"
-          },
-          "background": {
-            "value": "#e5f6fd",
-            "type": "color"
-          }
-        },
-        "success": {
-          "color": {
-            "value": "#1e4620",
-            "type": "color"
-          },
-          "background": {
-            "value": "#edf7ed",
-            "type": "color"
-          }
-        }
-      },
-      "stepper": {
-        "connector": {
-          "value": "{grey.400}",
-          "type": "color"
-        }
-      },
-      "snackbar": {
-        "fill": {
-          "value": "#323232",
-          "type": "color"
-        }
-      }
-    },
-    "logos": {
-      "betanxt": {
-        "fill": {
-          "value": "#0d6580",
-          "type": "color"
-        }
-      },
-      "mediant": {
-        "black": {
-          "value": "#303c41",
-          "type": "color"
-        },
-        "grey": {
-          "value": "#868c8d",
-          "type": "color"
-        },
-        "green": {
-          "value": "#55c21f",
-          "type": "color"
-        },
-        "blue": {
-          "value": "#009ab5",
-          "type": "color"
-        }
-      },
-      "poweredby": {
-        "color": {
-          "value": "{turquoise.500}",
-          "type": "color"
-        }
-      }
-    },
-    "secondary": {
-      "contrast": {
-        "on-light": {
-          "value": "#053f5a",
-          "type": "color"
-        },
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "main": {
-        "value": "#307987",
-        "type": "color"
-      },
-      "dark": {
-        "value": "#235862",
-        "type": "color"
-      },
-      "light": {
-        "value": "#95bdc3",
-        "type": "color"
-      },
-      "_states": {
-        "hover": {
-          "value": "#3079870a",
-          "type": "color",
-          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-        },
-        "selected": {
-          "value": "#30798714",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "focus": {
-          "value": "#3079871f",
-          "type": "color",
-          "description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token."
-        },
-        "focusVisible": {
-          "value": "#3079874d",
-          "type": "color"
-        },
-        "outlinedBorder": {
-          "value": "#30798780",
-          "type": "color",
-          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-        }
-      }
-    },
-    "tertiary": {
-      "main": {
-        "value": "{_components.link.color}",
-        "type": "color"
-      },
-      "light": {
-        "value": "#6eb1de",
-        "type": "color"
-      },
-      "dark": {
-        "value": "#1e5d87",
-        "type": "color"
-      },
-      "contrast": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "_states": {
-        "hover": {
-          "value": "#2879af0a",
-          "type": "color"
-        },
-        "selected": {
-          "value": "#2879af14",
-          "type": "color"
-        },
-        "focusVisible": {
-          "value": "#2879af4d",
-          "type": "color"
-        },
-        "outlinedborder": {
-          "value": "#2879af80",
-          "type": "color"
-        }
-      }
-    },
-    "text": {
-      "primary": {
-        "value": "#1f1e1c",
-        "type": "color",
-        "description": "Reflects the text.primary variable from the theme object"
-      },
-      "secondary": {
-        "value": "#1f1e1cb3",
-        "type": "color",
-        "description": "Reflects the text.secondary variable from the theme object"
-      },
-      "disabled": {
-        "value": "#1f1e1c61",
-        "type": "color",
-        "description": "Reflects the text.disabled variable from the theme object"
-      },
-      "_states": {
-        "hover": {
-          "value": "#1f1e1c0a",
-          "type": "color",
-          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-        },
-        "selected": {
-          "value": "#1f1e1c14",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "focus": {
-          "value": "#1f1e1c1f",
-          "type": "color",
-          "description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token."
-        },
-        "focusVisible": {
-          "value": "#1f1e1c4d",
-          "type": "color",
-          "description": "Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token."
-        }
-      }
-    },
-    "primary": {
-      "main": {
-        "value": "#053f5a",
-        "type": "color",
-        "description": "Reflects the primary.main variable from the theme object"
-      },
-      "dark": {
-        "value": "#012333",
-        "type": "color",
-        "description": "Used for hover states. Reflects the primary.dark variable from the theme object"
-      },
-      "light": {
-        "value": "#37657b",
-        "type": "color",
-        "description": "Reflects the primary.light variable from the theme object"
-      },
-      "contrast": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color"
-      },
-      "_states": {
-        "hover": {
-          "value": "#053f5a0a",
-          "type": "color",
-          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-        },
-        "selected": {
-          "value": "#053f5a14",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "focus": {
-          "value": "#053f5a1f",
-          "type": "color",
-          "description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token."
-        },
-        "focusVisible": {
-          "value": "#053f5a4d",
-          "type": "color"
-        },
-        "outlinedBorder": {
-          "value": "#053f5a80",
-          "type": "color",
-          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-        }
-      }
-    },
-    "action": {
-      "active": {
-        "value": "#0000008f",
-        "type": "color"
-      },
-      "hover": {
-        "value": "#0000000a",
-        "type": "color",
-        "description": "Reflects the action.hover variable from the theme object"
-      },
-      "selected": {
-        "value": "#00000014",
-        "type": "color",
-        "description": "Reflects the action.selected variable from the theme object"
-      },
-      "disabledBackground": {
-        "value": "#0000001f",
-        "type": "color",
-        "description": "Reflects the action.disabledBackground variable from the theme object"
-      },
-      "focus": {
-        "value": "#0000001f",
-        "type": "color",
-        "description": "Reflects the action.focus variable from the theme object"
-      },
-      "disabled": {
-        "value": "#00000061",
-        "type": "color",
-        "description": "Reflects the action.disabled variable from the theme object"
-      }
-    },
-    "error": {
-      "main": {
-        "value": "#d63900",
-        "type": "color"
-      },
-      "dark": {
-        "value": "#a12a00",
-        "type": "color"
-      },
-      "light": {
-        "value": "#eb6333",
-        "type": "color"
-      },
-      "_states": {
-        "hover": {
-          "value": "#d639000a",
-          "type": "color",
-          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-        },
-        "selected": {
-          "value": "#d6390014",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "focusVisible": {
-          "value": "#d639004d",
-          "type": "color"
-        },
-        "outlinedBorder": {
-          "value": "#d6390080",
-          "type": "color",
-          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-        }
-      },
-      "contrast": {
-        "value": "#ffffff",
-        "type": "color"
-      }
-    },
-    "warning": {
-      "main": {
-        "value": "#ff7400",
-        "type": "color"
-      },
-      "dark": {
-        "value": "#d15e00",
-        "type": "color"
-      },
-      "light": {
-        "value": "#ff8f33",
-        "type": "color"
-      },
-      "_states": {
-        "hover": {
-          "value": "#ff74000a",
-          "type": "color",
-          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-        },
-        "selected": {
-          "value": "#ff740014",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "focusVisible": {
-          "value": "#ff74004d",
-          "type": "color"
-        },
-        "outlinedBorder": {
-          "value": "#ff740080",
-          "type": "color",
-          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-        }
-      },
-      "contrast": {
-        "value": "#000000",
-        "type": "color"
-      }
-    },
-    "info": {
-      "main": {
-        "value": "#0d6580",
-        "type": "color"
-      },
-      "dark": {
-        "value": "#0a5066",
-        "type": "color"
-      },
-      "light": {
-        "value": "#3d8399",
-        "type": "color"
-      },
-      "_states": {
-        "hover": {
-          "value": "#0d65800a",
-          "type": "color",
-          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-        },
-        "selected": {
-          "value": "#0d658014",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "focusVisible": {
-          "value": "#0d65804d",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "outlinedBorder": {
-          "value": "#0d658080",
-          "type": "color",
-          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-        }
-      },
-      "contrast": {
-        "value": "#ffffff",
-        "type": "color"
-      }
-    },
-    "success": {
-      "main": {
-        "value": "#668066",
-        "type": "color"
-      },
-      "dark": {
-        "value": "#516651",
-        "type": "color"
-      },
-      "light": {
-        "value": "#849984",
-        "type": "color"
-      },
-      "contrast": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "_states": {
-        "hover": {
-          "value": "#6680660a",
-          "type": "color",
-          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-        },
-        "selected": {
-          "value": "#66806614",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "focusVisible": {
-          "value": "#6680664d",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "outlinedBorder": {
-          "value": "#66806680",
-          "type": "color",
-          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-        }
-      }
-    },
-    "common": {
-      "white_states": {
-        "main": {
-          "value": "#ffffff",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#ffffff0a",
-          "type": "color",
-          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-        },
-        "selected": {
-          "value": "#ffffff14",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "focus": {
-          "value": "#ffffff1f",
-          "type": "color"
-        },
-        "focusVisible": {
-          "value": "#ffffff4d",
-          "type": "color"
-        },
-        "outlinedBorder": {
-          "value": "#ffffff80",
-          "type": "color",
-          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-        }
-      },
-      "black_states": {
-        "main": {
-          "value": "#000000",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#0000000a",
-          "type": "color",
-          "description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token."
-        },
-        "selected": {
-          "value": "#00000014",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "focus": {
-          "value": "#0000001f",
-          "type": "color"
-        },
-        "focusVisible": {
-          "value": "#0000004d",
-          "type": "color",
-          "description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token."
-        },
-        "outlinedBorder": {
-          "value": "#00000080",
-          "type": "color",
-          "description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token."
-        }
-      }
-    },
-    "background": {
-      "default": {
-        "value": "{neutral.100}",
-        "type": "color",
-        "description": "Reflects the background.default variable from the theme object"
-      },
-      "paper-elevation-0": {
-        "value": "{neutral.200}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-1": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-2": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-3": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-4": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-5": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-6": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-7": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-8": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-9": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-10": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-11": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-12": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-13": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-14": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-15": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-16": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-17": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-18": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-19": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-20": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-21": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-22": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-23": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      },
-      "paper-elevation-24": {
-        "value": "{background.paper-elevation-0}",
-        "type": "color",
-        "description": "Reflects the background.paper variable from the theme object"
-      }
-    },
-    "divider": {
-      "value": "#1f1e1c1f",
-      "type": "color",
-      "description": "Reflects the divider variable from the theme object"
-    },
-    "elevation": {
-      "outlined": {
-        "value": "#e0e0e0",
-        "type": "color"
-      }
-    },
-    "_native": {
-      "scrollbar-bg": {
-        "value": "{grey.200}",
-        "type": "color"
       }
     }
   },
@@ -8058,8 +8058,8 @@
   "$metadata": {
     "tokenSetOrder": [
       "spacing/desktop",
-      "palette/dark",
       "palette/light",
+      "palette/dark",
       "material/color",
       "materialpattern/color",
       "typography/desktop",
